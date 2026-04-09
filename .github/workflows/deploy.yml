@@ -21,4 +21,4 @@ jobs:
           script: |
             cd /project/CI_CD_Testing
             git pull origin main
-            node index.js
+            node index.ts
