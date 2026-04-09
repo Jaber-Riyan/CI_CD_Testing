@@ -18,6 +18,8 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
 
           script: |
-            cd /ci-test
+            cd /
+            cd /project
+            cd /CI_CD_Dummy
             git pull origin main
             node index.js
